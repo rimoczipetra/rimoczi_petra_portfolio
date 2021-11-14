@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.hatterkep{
+	width: 100%;
+	height: 100%;
+	background-image: url(../kepek/hatter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.menusor{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+
+}
+.menusor a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active, .menusor a:hover{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.a{
+	width: 95%;
+}
+.b{
+	width: 75%;
+}
+.c{
+	width: 70%;
+}
+.d{
+	width: 90%
+}
+.szoveg{
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	/*background-color: red;*/
+    right: 0;
+    top: 10%;
+}
+.kezdolap{
+	position: absolute;
+	right: 0;
+	bottom: -50px;
+	color: black;
+	font-family: verdana;
+}
+.kezdolap h1{
+	font-size: 80px;
+	padding-right: 280px;
+	border-bottom: 2px solid black;
+}
+.kezdolap h3{
+	font-size: 28px;
+	padding: 5px 0;
+	opacity: 0.7;
+}
+.rolam{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: black;
+	font-family: century;
+	padding: 60px 0;
+	display: none;
+}
+.rolam p{
+	font-size: 18px;
+	line -height: 28px;
+	margin-bottom: 15px ;
+	background-color: lightgoldenrodyellow;
+}
+.kepek{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: black;
+	padding: 60px 0;
+	display: none;
+}
+.kepek .kep{
+	width: 25%;
+	float: left;
+	margin: 2%;
+}
+.kep img{
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.kep img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+.dokumentacio{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: black;
+	padding: 60px 0;
+	display: none;
+	margin-right: 50px;
+}
+.dokumentacio p{
+	font-size: 18px;
+	line -height: 28px;
+	margin-top: 1350px;
+	background-color: lightgoldenrodyellow;
+}
